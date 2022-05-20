@@ -8,3 +8,9 @@
 <script setup>
 import HelloWorld from '@/components/HelloWorld.vue'
 </script>
+
+<style lang="less" scoped>
+.home {
+  text-align: center;
+}
+</style>
