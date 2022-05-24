@@ -6,7 +6,6 @@
 </template>
 
 <script setup>
-import STree from '@/components/STree.vue';
 import { treeData } from '@/test-consts/'
 
 </script>

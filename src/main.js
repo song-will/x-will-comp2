@@ -4,6 +4,7 @@ import App from './App.vue'
 import routes from './router'
 import store from './store'
 import {createRouter, createWebHistory} from 'vue-router'
+import STree from '@/components/s-tree/index'
  
 // createApp(App).use(store).use(router).mount('#app')
 
@@ -19,6 +20,7 @@ function render ({container} = {}) {
     })
     instance.use(router)
     instance.use(store)
+    instance.use(STree)
     instance.mount(container ? container.querySelector('#app') : '#app')
 }
 

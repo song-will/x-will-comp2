@@ -49,7 +49,12 @@ export const treeData = [
         children: [
           {
             label: "三级 3-2-1",
-          },
+            children: [
+              {
+                label: '四级 4-3-2-1'
+              }
+            ]
+          }
         ],
       },
     ],
