@@ -12,7 +12,7 @@
 </template>
 
 <script setup>
-import STree from '@/components/s-tree/STree.vue'
+// import STree from '@/components/s-tree/STree.vue'
 import { reactive } from 'vue';
 const props = defineProps({
   options: {

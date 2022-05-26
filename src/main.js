@@ -4,7 +4,7 @@ import App from './App.vue'
 import routes from './router'
 import store from './store'
 import {createRouter, createWebHistory} from 'vue-router'
-// import STree from '@/components/s-tree/index'
+import STree from '@/components/s-tree/index'
  
 // createApp(App).use(store).use(router).mount('#app')
 
@@ -13,7 +13,7 @@ let instance = null
 let router = null
 
 function render ({container} = {}) {
-    instance = createApp(App)
+    instance = createApp(App).component('STree', STree)
     router = createRouter({
         history: createWebHistory(window.__POWERED_BY_QIANKUN__ ? '/comp2' : ''),
         routes
