@@ -11,7 +11,7 @@
   </div>
 </template>
 
-<script name="STree" setup>
+<script setup>
 // import STree from '@/components/s-tree/STree.vue'
 import { reactive } from 'vue';
 const props = defineProps({
