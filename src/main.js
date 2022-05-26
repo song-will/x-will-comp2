@@ -13,14 +13,13 @@ let instance = null
 let router = null
 
 function render ({container} = {}) {
-    instance = createApp(App).component('STree', STree)
+    instance = createApp(App).use(STree)
     router = createRouter({
         history: createWebHistory(window.__POWERED_BY_QIANKUN__ ? '/comp2' : ''),
         routes
     })
     instance.use(router)
     instance.use(store)
-    // instance.use(STree)
     instance.mount(container ? container.querySelector('#app') : '#app')
 }
 
