@@ -11,6 +11,12 @@
   </div>
 </template>
 
+
+<script>
+ export default {
+   name: 'STree'
+ }
+</script>
 <script setup>
 // import STree from '@/components/s-tree/STree.vue'
 import { reactive } from 'vue';
