@@ -4780,6 +4780,11 @@ run-parallel@^1.1.9:
   dependencies:
     queue-microtask "^1.2.2"
 
+s-ui@^0.0.1:
+  version "0.0.1"
+  resolved "https://registry.yarnpkg.com/s-ui/-/s-ui-0.0.1.tgz#c7a60d4afdb0b972eeb6e0816f7ff5ecb96ec05b"
+  integrity sha512-OSFDPxRxiyEKTwcdlPfzJbVJWxHCVqdEoOO6kohshVghDjlyBql8pcAWFdhuYHNJFhVh9DFT6lOeTSNkF0xhBA==
+
 safe-buffer@5.1.2, safe-buffer@~5.1.0, safe-buffer@~5.1.1:
   version "5.1.2"
   resolved "https://registry.npmmirror.com/safe-buffer/-/safe-buffer-5.1.2.tgz#991ec69d296e0313747d59bdfd2b745c35f8828d"
